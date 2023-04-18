@@ -11,7 +11,7 @@ thumb: https://images.unsplash.com/photo-1523800503107-5bc3ba2a6f81?ixlib=rb-4.0
 
 Bom, esse é meu primeiro post, creio que não irá ser o primeiro de muitos, apenas estou populando esse blog aqui com alguns artigos para quem o quiser ver através do meu portfólio veja algum contéudo de fato e não dados/posts mockados.
 
-> **Mas porquê Next? E não React, Svelte, SolidJS ou mesmo Next?**
+> **Mas porquê Nuxt? E não React, Svelte, SolidJS ou mesmo Next?**
 >
 >   - Como desenvolvedor é natural e esperado de mim que domine e estude outras         
     tecnologias, apesar de **React** ser e talvez continuará sendo o framework mais popular e um dos mais conhecidos isso não quer dizer que devamos deixar os outros de lado,  principalmente **Vue** e **Angular**.
