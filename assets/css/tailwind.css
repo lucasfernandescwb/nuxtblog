@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply bg-[#212121] text-[#FBF5F3] scrollbar;
+    }
+
+    img {
+        @apply max-w-full;
+    }
+    
+    h1, h2, h3, h4 { @apply text-indigo-400; }
+
+    strong, b { @apply text-amber-400 }
+}
+
+@layer components {
+    .card {
+        @apply rounded shadow-sm transition-transform hover:scale-105 hover:cursor-pointer bg-slate-800 max-w-[480px];
+    }
+
+    .text-primary { @apply text-indigo-400; }
+
+    .thumb { @apply w-full h-full object-cover; }
+}
+
+@layer utilities {
+    .scrollbar::-webkit-scrollbar {
+      width: 4px;
+    }
+  
+    .scrollbar::-webkit-scrollbar-track {
+      background: transparent;
+    }
+  
+    .scrollbar::-webkit-scrollbar-thumb {
+      background: #818cf8;
+      border-radius: 4px;
+    }
+  
+    .scrollbar::-webkit-scrollbar-thumb:hover {
+      background: #c0a0b9;
+    }
+  }
